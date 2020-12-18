@@ -11,6 +11,7 @@
     <b-nav-item to="/sesiones">CRUD Sesión</b-nav-item>
     <b-nav-item to="/tareas">CRUD Tarea</b-nav-item>
     <b-nav-item to="/curso">CRUD Curso</b-nav-item>
+    <b-nav-item to="/carga_academica">Carga Academica</b-nav-item>
     <b-nav-item to="/niveles">CRUD NivelEducativo</b-nav-item>
     <b-nav-item to="/grados">CRUD GRADO</b-nav-item>
     <b-nav-item to="/login">Login</b-nav-item>
