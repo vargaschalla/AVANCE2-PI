@@ -20,6 +20,8 @@ import Alumno from './components/Alumno.vue';
 import AlumnoForm from './components/AlumnoForm.vue';
 import Docente from './components/Docente.vue';
 import DocenteForm from './components/DocenteForm.vue';
+import CargaAcademica from './components/CargaAcademica.vue';
+import CargaAcademicaForm from './components/CargaAcademicaForm.vue';
 import Grado from './components/Grado.vue';
 import GradoForm from './components/GradoForm.vue';
 
@@ -182,6 +184,22 @@ const router = new Router({
       path: '/docentes/form/:id',
       name: 'DocenteForme',
       component: DocenteForm
+    },
+    {
+      path: '/carga_academica',
+      name: 'CargaAcademica',
+      component: CargaAcademica,
+    },
+    {
+      path: '/carga_academica/form',
+      name: 'CargaAcademicaForm',
+      component: CargaAcademicaForm,
+
+    },
+    {
+      path: '/carga_academica/form/:id',
+      name: 'CargaAcademicaForme',
+      component: CargaAcademicaForm
     },
     {
       path: '/login',
