@@ -10,6 +10,8 @@ import Rol from './components/Rol.vue';
 import RolForm from './components/RolForm.vue';
 import Sesion from './components/Sesion.vue';
 import SesionForm from './components/SesionForm.vue';
+import Curso from './components/Curso.vue';
+import CursoForm from './components/CursoForm.vue';
 import Tarea from './components/Tarea.vue';
 import TareaForm from './components/TareaForm.vue';
 import Nivel from './components/Nivel.vue';
@@ -84,6 +86,22 @@ const router = new Router({
       path: '/sesiones/form/:id',
       name: 'SesionForme',
       component: SesionForm
+    },
+    {
+      path: '/curso',
+      name: 'Curso',
+      component: Curso,
+    },
+    {
+      path: '/curso/form',
+      name: 'CursoForm',
+      component: CursoForm,
+
+    },
+    {
+      path: '/curso/form/:id',
+      name: 'CursoForme',
+      component: CursoForm
     },
     {
       path: '/tareas',
